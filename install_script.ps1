@@ -1,4 +1,4 @@
-$packageListName = 'package_list.json'
+﻿$packageListName = 'package_list.json'
 $programs = (Get-Content -Raw -Path $packageListName | ConvertFrom-Json).list
 $listOk = @()
 $someFailed = $false
